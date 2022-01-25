@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>My Webpage lab 0</title>
+          <link rel= "stylesheet" href="style.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+    <body>
+        <section class = "sub-header">
+          <nav>
+              <a href = "index.html"> <img src="images/canada.png"></a>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                    <li><a href="Cities.html">Cities</a></li>
+                    <li><a href="Universities.html">University and Colleges</a></li>
+                    <li><a href="Connect.html">Connect</a></li>
+                    <li><a href="Immigration.html">Immigration </a></li>
+                  </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+          </nav>
+          <h1> Best Cities in Canada for Students </h1>
+
+
+
+        </section>
+
+<!-----------Cities Content------>
+<table class="center">
+
+  <tr>
+    <th>Province</th>
+    <th>City</th>
+    <th>Population</th>
+  </tr>
+  <tr>
+    <td>Alberta</td>
+    <td>Calgary</td>
+    <td>1.3M</td>
+  </tr>
+  <tr>
+    <td>British Columbia</td>
+    <td>Victoria</td>
+    <td>92k</td>
+  </tr>
+  <tr>
+    <td>Ottawa</td>
+    <td>Ontario</td>
+    <td>1.1M</td>
+  </tr>
+
+  <tr>
+    <td>Alberta</td>
+    <td>Edmonton</td>
+    <td>900k</td>
+  </tr>
+
+  <tr>
+    <td>Saskatchewan</td>
+    <td>Saskatoon</td>
+    <td>300k</td>
+  </tr>
+
+  <tr>
+    <td>British Columbia</td>
+    <td>Vancouver</td>
+    <td>2.5M</td>
+  </tr>
+
+  <tr>
+    <td>Saskatchewan</td>
+    <td>Regina</td>
+    <td>200k</td>
+  </tr>
+
+  <tr>
+    <td>Ontario</td>
+    <td>Toronto</td>
+    <td>3M</td>
+  </tr>
+</table>
+
+
+
+<!-----------Socials - Footer------>
+<section class="social">
+    <h3>About Us</h3>
+    <p>
+    Check our social media for updates and special events
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+</section>
+<!----JavaScript toggle-------->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right= "0";
+  }
+  function hideMenu(){
+    navLinks.style.right= "-200px";
+  }
+
+</script>
+
+
+    </body>
+</html>

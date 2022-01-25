@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>My Webpage lab 0</title>
+          <link rel= "stylesheet" href="style.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+    <body>
+        <section class = "header">
+          <nav>
+              <a href = "index.html"> <img src="images/canada.png"></a>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                      <li><a href="Cities.html">Cities</a></li>
+                      <li><a href="Universities.html">University and Colleges</a></li>
+                      <li><a href="Connect.html">Connect</a></li>
+                      <li><a href="Immigration.html">Immigration </a></li>
+                  </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+          </nav>
+
+
+<div class = "text-box">
+  <h1>  Studying in Canada </h1>
+
+  <p>
+    Are you studying or planning to study in Canada? <br> Here you will find plenty of resources
+  about places to live in Canada, Universities or colleges,<br> Immigration advice and you can also connect
+  with other students from all around the world
+ </p>
+
+  <a href="" class="hero-btn"> Click here to learn more </a>
+</div>
+
+        </section>
+
+
+<!-----expert------>
+<section class = "expert">
+    <h1> Consult with an expert </h1>
+    <p>From East to West we help students find their new home</p>
+
+    <div class = "row">
+        <div class ="expert-col">
+            <h3> Student Blog </h3>
+            <p> Check our student blog to learn about their experiences </p>
+        </div>
+        <div class ="expert-col">
+            <h3> Advisors </h3>
+            <p> Our advisors have helped 300+ students in the past 2 years </p>
+        </div>
+        <div class ="expert-col">
+            <h3> Resources </h3>
+            <p> Not ready for an advisor? Check out different websites that can help you</p>
+        </div>
+    </div>
+</section>
+
+<!-----Cities------>
+<section class="cities">
+  <h1> Best Cities for student in 2021 </h1>
+  <p> From a survey conducted during 2021 by the AUT, here are the best cities to live for a student</p>
+
+  <div class = "row">
+      <div class= "cities-col">
+          <img src= "images/calgs.png">
+          <div class = "layer">
+          <h3> CALGARY </h3>
+          </div>
+      </div>
+
+      <div class= "cities-col">
+          <img src= "images/v.png">
+          <div class = "layer">
+          <h3> VICTORIA </h3>
+          </div>
+      </div>
+
+      <div class= "cities-col">
+          <img src= "images/ottowa.png">
+          <div class = "layer">
+          <h3> OTTAWA </h3>
+          </div>
+      </div>
+  </div>
+
+</section>
+
+<!-----------Students------>
+
+<section class="students">
+      <h1> Our students</h1>
+      <p> Check out the journey of some of the students we have helped during the past 5 years</p>
+
+      <div class="row">
+        <div class="students-col">
+          <img src = "images/enis.png">
+          <h3> Enis <h/3>
+          <p> Enis is an international student from Albania, currently studying at University of Calgary. </p>
+        </div>
+
+        <div class="students-col">
+          <img src = "images/alex.png">
+          <h3>Alex <h/3>
+          <p> Alex is an international student from Mexico, currently studying at University of Calgary. </p>
+        </div>
+
+        <div class="students-col">
+          <img src = "images/diana.png">
+          <h3>Diana <h/3>
+          <p> Diana is an international student from Mexico, currently studying at The Southern Alberta Institute of Technology. </p>
+        </div>
+     </div>
+
+</section>
+
+<!-----------Testimonials------>
+<section class= "testimonials">
+  <h1> What Our Student Says </h1>
+  <p> Check some of the comments that our students have left on our website</p>
+
+  <div class = "row">
+      <div class="testimonial-col">
+          <img src="images/lisa.jpg">
+          <div>
+            <p> My experience coming to Canada would have not been the same without the help of these guys.
+            I definitely recommend their services. </p>
+            <h3> Lisa MonaLisa </h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+
+
+          </div>
+      </div>
+
+      <div class="testimonial-col">
+          <img src="images/kim.jpg">
+          <div>
+            <p> I'm currently workin a full time job in Toronto after finishing my degree. I want to thank this amazing team
+            that helped me through my university journey </p>
+            <h3>Kim Woo-bin</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+
+          </div>
+      </div>
+    </div>
+
+</section>
+
+<!-----------contacs------>
+
+<section class="contact">
+  <h1> Ask a question or send a message about our services </h1>
+  <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!-----------Socials - Footer------>
+<section class="social">
+    <h3>About Us</h3>
+    <p>
+    Check our social media for updates and special events
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+</section>
+<!----JavaScript toggle-------->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right= "0";
+  }
+  function hideMenu(){
+    navLinks.style.right= "-200px";
+  }
+
+</script>
+
+
+    </body>
+</html>
